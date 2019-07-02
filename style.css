@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 1200px;
+  display: block;
+}
+.header {
+  font-size: 0;
+}
+.lft_header,
+.rght_header,
+.address_header,
+.list_menu {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.list_menu ul li {
+  display: inline-block;
+  margin-left: 10px;
+  list-style: none;
+}
+.list_menu ul li:first-child {
+  margin-left: none;
+}
+.phone_header a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.address_header {
+  margin-left: 10px;
+}
+.list_menu ul li a {
+  text-decoration: none;
+  font-family: 'Courier New';
+  font-style: italic;
+  font-size: 14px;
+  color: black;
+  opacity: 0.6;
+}
+.list_menu ul li a:hover {
+  color: red;
+}
+.vert_line {
+  padding-right: 15px;
+  border-right: 1px solid grey;
+}
+.list_menu ul li span a {
+  color: red;
+}
+
+.phone_header,
+.address_header {
+  display: inline-block;
+}
+nav {
+  font-size: 0;
+  text-align: left;
+  margin-left: 100px;
+}
+nav ul li {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(71, 69, 69);
+  opacity: 0.9;
+  font-family: sans-serif;
+}
+nav ul li a:hover {
+  color: red;
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid red;
+}
+/* nav ul li:first-child:hover {
+  height: 105px;
+  width: 200px;
+  background: url('./mitsubishi/new_l200.jpg') left 100% no-repeat;
+}
+
+nav ul li:nth-child(2):hover {
+  height: 105px;
+  width: 200px;
+  background: url('./mitsubishi/eclipse_cross.png') left 100% no-repeat;
+}
+nav ul li:nth-child(3):hover {
+  height: 105px;
+  width: 200px;
+  background: url('./mitsubishi/asx.jpg') left 100% no-repeat;
+}
+nav ul li:nth-child(4):hover {
+  height: 105px;
+  width: 200px;
+  background: url('./mitsubishi/outlander.jpg') left 100% no-repeat;
+}
+nav ul li:nth-child(5):hover {
+  height: 105px;
+  width: 200px;
+  background: url('./mitsubishi/old_l200.png') left 100% no-repeat;
+}
+nav ul li:nth-child(6):hover {
+  height: 105px;
+  width: 200px;
+  background: url('./mitsubishi/outlander_phev.jpg') left 100% no-repeat;
+}
+nav ul li:nth-child(7):hover {
+  height: 105px;
+  width: 200px;
+  background: url('./mitsubishi/pajero_sport.jpg') left 100% no-repeat;
+}
+nav ul li:nth-child(8):hover {
+  height: 105px;
+  width: 200px;
+  background: url('./mitsubishi/pajero.png') left 100% no-repeat;
+} */
+
+.first_line,
+.second_line {
+  font-size: 0;
+
+  display: inline-block;
+}
+
+.one_first_line,
+.two_first_line,
+.three_first_line,
+.four_first_line,
+.one_two_line,
+.two_two_line,
+.three_two_line,
+.four_two_line {
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 80px;
+  margin-top: 80px;
+  position: relative;
+}
+.opacity_text {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  text-align: center;
+  width: 100%;
+  color: white;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.one_first_line:hover .opacity_text,
+.two_first_line:hover .opacity_text,
+.three_first_line:hover .opacity_text,
+.four_first_line:hover .opacity_text,
+.one_two_line:hover .opacity_text,
+.two_two_line:hover .opacity_text,
+.three_two_line:hover .opacity_text,
+.four_two_line:hover .opacity_text {
+  background: grey;
+  opacity: 0.8;
+}
