@@ -1,4 +1,4 @@
 # mitsubishi
 
 
-https://ihorvolkov.github.io/mitsubishi/index.html
+https://ihorvolkov.github.io/Mitsubishi/
